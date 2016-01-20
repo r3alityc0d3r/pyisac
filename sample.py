@@ -1,7 +1,15 @@
 from  infrastructure import servers
 
-atclilabbw = servers.BaseServer("actlilabbw","ATC")
-atclilabbw.show()
+systems = [];
 
 my_servers = servers.load("atc_systems.json")
-print "server: %s" % my_servers["systems"][0]["type"]
+print "Loading Infrastructure:"
+for server in my_servers["systems"]:
+    if server["type"] == "linux":
+        x = servers.LinuxServer(
+                server["servername"],
+                server["location"],
+                server["kernel"]
+                )
+        x.show()
+        systems.append(x)
