@@ -1,0 +1,4 @@
+{
+    "systems":[
+    {"type":"linux", "servername":"atclilabbw", "location":"atc"}
+]}
