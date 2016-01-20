@@ -16,6 +16,7 @@ configuration management but also a simple way of deploying applications.
     virtualenv venv
     source venv/bin/activate
     cd pyisac
+    python sample.py
 ```
 
 not sure what all is coming next stick around and see!
