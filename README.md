@@ -1,5 +1,7 @@
 # PYISAC - PYthon InfraStructure As Code
 
+[![Build Status](https://travis-ci.org/r3alityc0d3r/pyisac.svg?branch=master)](https://travis-ci.org/r3alityc0d3r/pyisac)
+
 ## About
 
 This project will hopefully be a new way to think about configuration management
